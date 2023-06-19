@@ -1,0 +1,118 @@
+.navbar {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 450px;
+    background: rgb(131,58,180); background: linear-gradient(90deg, rgba(137, 10, 240, 0.589) 0%, rgba(12, 60, 192, 0.575) 50%, rgba(122, 13, 212, 0.562) 100%);
+
+  }
+  
+  .logo img {
+    height: 100px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 69px;
+    text-align: left;
+    padding-right: 75px;
+    font-size: 25px; 
+    font-weight: bold;
+  }
+  
+.container {
+    display: flex;
+    margin-top: 35px;
+    flex-direction: row;
+    gap: 2rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    background: rgba(131, 58, 180, 0.253); background: linear-gradient(90deg, rgba(137, 10, 240, 0.219) 0%, rgba(12, 60, 192, 0.219) 50%, rgba(122, 13, 212, 0.164) 100%)
+}
+
+.image {
+    margin-right: 20px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.container text {
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img {
+    margin-right: 10px;
+    width: 100%;
+}
+
+.logo h2 {
+    font-size: 45px;
+    font-weight: bold;
+    padding-left: 25px;
+    letter-spacing: 3px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image {
+    margin-right: 20px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.container-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(2, 2, 75, 0.8);
+    padding: 40px;
+    border-radius: 20px;
+    width: 600px;
+    text-align: center;
+  }
+
+  .gradient {
+    background: linear-gradient(to bottom, rgb(34, 34, 104), #723272);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .gradient h1 {
+    font-size: 32px;
+  }
+
+  .gradient p {
+    font-size: 24px;
+    margin-top: 20px;
+  }

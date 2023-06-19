@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="/Main/services.css">
+  <head>
+    <title>Order Sandwiches</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="assets/supersubs-logo.png" alt="Logo" width="50" height="50">
+        <h2>SuperSubs</h2>
+      </div>
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/index.html">About</a></li>
+        <li><a href="services.html">Buy A Sub</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Buy Your Sub!</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <h3>Choose your sandwich toppings:</h3>
+      <input type="checkbox" id="lettuce" name="toppings[]" value="lettuce">
+      <label for="lettuce">Lettuce</label><br>
+
+      <input type="checkbox" id="tomato" name="toppings[]" value="tomato">
+      <label for="tomato">Tomato</label><br>
+
+      <input type="checkbox" id="cheese" name="toppings[]" value="cheese">
+      <label for="cheese">Cheese</label><br>
+
+      <input type="checkbox" id="onion" name="toppings[]" value="onion">
+      <label for="onion">Onion</label><br>
+
+      <input type="checkbox" id="pickle" name="toppings[]" value="pickle">
+      <label for="pickle">Pickle</label><br>
+
+      <h3>Choose your bread:</h3>
+      <input type="radio" id="white" name="bread" value="white" checked>
+      <label for="white">White Bread</label><br>
+
+      <input type="radio" id="wholewheat" name="bread" value="wholewheat">
+      <label for="wholewheat">Whole Wheat Bread</label><br>
+
+      <h3>Choose your sauce:</h3>
+      <select id="sauce" name="sauce">
+        <option value="mayonnaise">Mayonnaise</option>
+        <option value="mustard">Mustard</option>
+        <option value="ketchup">Ketchup</option>
+      </select><br>
+
+      <a href="thankyou.html" class="placeorder">Place Order</a>
+    </form>
+  </body>
+</html>
